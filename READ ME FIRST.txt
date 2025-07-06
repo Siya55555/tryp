@@ -1,0 +1,66 @@
+1) Add your database info in .env file
+2) Add your login info in user table and assign 1 into the admin field
+3) Upload project to your server and login.
+
+
+DESCRIPTION:
+This is a travel website in which is a membership only site. The original developer did not understand 
+the complete scope and designed some sections in the wrong places. 
+You are just simply fixing and changing wording.
+
+The site when done will consist of Destinations and membership packages. So we will not need bundles. 
+It will be repurposed to the resorts that are part of the destination
+Destinations needs to be places like city state country with images.
+
+CHANGES
+1) Bundles will be changed to hotels/resorts
+-pictures, details, pricing, name of property, type of room, amenities, etc
+-will be linked to destinations and when user clicks on destinations, it will show all the resorts 
+associated with that destination.
+
+2) In the create user section
+-no default email populated, password gets a random generated one that user needs to change on 
+first login, collect name, address, phone, promo code, and will link to their purchase membership packages.
+(When user logs in they will be able to select the destination they want to book, submit their dates 
+and admin will see that info as a submission.)
+
+
+ADDITONS TO ADMIN: 
+1) Section to add pages to site
+-with permalink
+-set different page layouts
+-be able import other options from site like featured destinations, membership signup, etc, as a widget or UI block
+-Ability to change header and footer
+-Ability to change any page
+-Add social share/mms/seo data including image and description
+
+2) Section to create site menus
+-will be able to add any page or category or destination etc anything that is on the site will 
+be able to added as a menu option drag and drop style. 
+
+3) Section to create policies 
+-privacy, tos, membership, etc
+-option to add that as a check box user agrees to on any form as  required 
+
+OTHER MISC CHANGES
+1) remove email address from contact settings in admin 
+
+2) add site favicon in admin so that can be updated by admin 
+
+3) all options need active/inactive option toggle on the list page. Inactive will not show on list for admin unless selected
+
+4) change text on buttons and widgets
+
+5) remove email options on the customer end of the site we don't want our email published anywhere
+
+6) add option to add a popup window 
+
+
+
+RESOURCES:
+If you want to get an idea of what certain functions in the admin portal how it 
+should function  then go to https://farmart.botble.com/admin
+
+
+
+
