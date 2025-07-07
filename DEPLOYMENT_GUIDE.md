@@ -55,10 +55,9 @@ php artisan route:cache
 php artisan view:cache
 ```
 
-- **Start Command**:
+- **Start Command (for Railway):**
 ```bash
-php artisan migrate --force
-vendor/bin/heroku-php-apache2 public/
+php artisan serve --host=0.0.0.0 --port $PORT
 ```
 
 ### 2.5 Environment Variables
