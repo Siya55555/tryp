@@ -1,3 +1,4 @@
+// Trigger change for Render PHP detection
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "laravel/laravel",
