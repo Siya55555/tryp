@@ -1,7 +1,6 @@
 services:
   - type: web
     name: tryp-laravel-app
-    plan: free
     buildCommand: |
       composer install --no-dev --optimize-autoloader
       php artisan key:generate
@@ -51,10 +50,4 @@ services:
       - key: STRIPE_SECRET
         value: ""
       - key: STRIPE_WEBHOOK_SECRET
-        value: ""
-
-databases:
-  - name: tryp-database
-    plan: free
-    databaseName: tryp
-    user: tryp_user 
+        value: "" 
